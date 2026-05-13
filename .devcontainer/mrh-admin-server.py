@@ -7,8 +7,8 @@ import sys
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 ADMIN_DIRECTORY = "/opt/mrh-admin"
-DEFAULT_ADMIN_USERNAME = "admin"
-DEFAULT_ADMIN_PASSWORD = "Sample@Sample"
+DEFAULT_ADMIN_USERNAME = "admins"
+DEFAULT_ADMIN_PASSWORD = "Samples@Samples"
 LISTEN_HOST = os.getenv("MRH_ADMIN_HOST", "0.0.0.0")
 LISTEN_PORT = int(os.getenv("MRH_ADMIN_PORT", "8080"))
 
